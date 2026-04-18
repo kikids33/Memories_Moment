@@ -112,7 +112,7 @@ export function Hero() {
               <div className="w-px h-10 bg-border" />
               <div className="text-center">
                 <p className="text-2xl font-bold text-primary">50+</p>
-                <p className="text-xs text-muted-foreground">Video Kenangan</p>
+                <p className="text-xs text-muted-foreground">Video Ngentot Kenangan</p>
               </div>
               <div className="w-px h-10 bg-border" />
               <div className="text-center">

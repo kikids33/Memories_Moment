@@ -6,11 +6,11 @@ import { Calendar, Heart, Camera, Video, Sparkles, MapPin } from "lucide-react"
 const timelineEvents = [
   {
     year: "2024",
-    title: "Tahun Penuh Cinta",
+    title: "Tahun Ngentot Penuh Cinta",
     description: "Melamar di bawah bintang dan memulai babak baru dalam kisah cinta kita.",
     icon: Sparkles,
     stats: { photos: 245, videos: 32 },
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=500",
+    image: "https://c.files.bbci.co.uk/C3A1/production/_123218005_gettyimages-a0034-000002.jpg?w=500",
     location: "Yogyakarta"
   },
   {
