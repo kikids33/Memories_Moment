@@ -5,32 +5,24 @@ import { Calendar, Heart, Camera, Video, Sparkles, MapPin } from "lucide-react"
 
 const timelineEvents = [
   {
-    year: "2024",
-    title: "Tahun Ngentot Penuh Cinta",
-    description: "Melamar di bawah bintang dan memulai babak baru dalam kisah cinta kita.",
+    year: " 20 maret 2026",
+    title: "awal pdkt",
+    description: "berawal dari reply story ig.",
     icon: Sparkles,
-    stats: { photos: 245, videos: 32 },
-    image: "https://c.files.bbci.co.uk/C3A1/production/_123218005_gettyimages-a0034-000002.jpg?w=500",
-    location: "Yogyakarta"
+    stats: { photos: 1, videos: 0 },
+    image: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1777098672/IMG_1964_dkle3n.jpg",
   },
+  
   {
-    year: "2023",
-    title: "Petualangan Berdua",
-    description: "Menjelajahi dunia bersama, dari pantai hingga pegunungan, selalu bergandengan tangan.",
-    icon: Heart,
-    stats: { photos: 189, videos: 24 },
-    image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=500",
-    location: "Bali"
-  },
-  {
-    year: "2022",
-    title: "Awal Mula Kita",
-    description: "Pertemuan pertama yang mengubah segalanya. Dari satu cup kopi menjadi selamanya.",
+    year: " 28 maret 2026",
+    title: "first time kita jalan",
+    description: "Pertemuan pertama yang tak terlupakan, penuh tawa dan chemistry yang langsung terasa.",
     icon: Camera,
-    stats: { photos: 156, videos: 18 },
-    image: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500",
-    location: "Jakarta"
+    stats: { photos: 4, videos: 2 },
+    image: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781291/IMG_1139_zdnwvg.jpg",
+    location: "xxi lipo mall dan klop ",
   },
+  
 ]
 
 export function Timeline() {

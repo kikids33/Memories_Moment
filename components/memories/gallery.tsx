@@ -20,77 +20,96 @@ const memories: MemoryItem[] = [
   {
     id: 1,
     type: "photo",
-    src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800",
-    title: "First Date",
-    date: "14 Februari 2022",
-    location: "Jakarta",
+    src: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776702232/photo_1_f30pmm.jpg",
+    title: "..",
+    date: "..",
+    location: "..",
     category: "date"
   },
   {
     id: 2,
     type: "video",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
-    thumbnail: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800",
-    title: "Anniversary Trip",
-    date: "14 Februari 2023",
-    location: "Bali",
+    src: "https://res.cloudinary.com/dohwfmj5l/video/upload/v1776702428/live_mode_e8wrmn.mp4",
+    thumbnail: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781296/frame_wpq16t.jpg",
+    title: "..",
+    date: "..",
+    location: "..",
     category: "travel"
   },
   {
     id: 3,
     type: "photo",
-    src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800",
-    title: "Sunset Together",
-    date: "5 Juli 2023",
-    location: "Lombok",
+    src: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781302/a29b283e-34cd-4365-9569-2effb7ae73fe_v99pik.jpg",
+    title: "...",
+    date: "...",
+    location: "...",
     category: "travel"
   },
   {
     id: 4,
     type: "photo",
-    src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800",
-    title: "Double Date",
-    date: "20 Agustus 2023",
-    location: "Bandung",
-    category: "friends"
+    src: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781304/8fbadd64-78fe-4f27-bb9a-5af3f169e8c9_luoh8p.jpg",
+    title: "rs primata",
+    date: "11 april 2026",
+    location: "pasar kemis",
+    category: "special"
   },
   {
     id: 5,
     type: "photo",
-    src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800",
-    title: "Proposal Day",
-    date: "25 Desember 2023",
-    location: "Yogyakarta",
+    src: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781301/c8f1dc2d-65e6-4ef6-ba52-da91b53ae1e8_sz5aat.jpg",
+    title: "First Date",
+    date: "28 maret 2026",
+    location: "klop",
     category: "special"
   },
   {
     id: 6,
     type: "photo",
-    src: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800",
-    title: "Meet The Family",
-    date: "1 Januari 2024",
-    location: "Surabaya",
-    category: "family"
+    src: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781298/IMG_1912_gwdf6s.jpg",
+    title: "...",
+    date: "...",
+    location: "...",
+    category: "special"
   },
   {
     id: 7,
     type: "video",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
-    thumbnail: "https://images.unsplash.com/photo-1464047736614-af63643285bf?w=800",
-    title: "Concert Night",
-    date: "14 Februari 2024",
-    location: "Jakarta",
+    src: "https://res.cloudinary.com/dohwfmj5l/video/upload/v1776782755/a0fad3bc-2a11-4244-a0c8-ab6b5015860c_snlsbd.mp4",
+    thumbnail: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776782756/IMG_1790_wdxw4z.jpg",
+    title: "rundom",
+    date: "...",
+    location: "...",
     category: "date"
   },
   {
     id: 8,
     type: "photo",
-    src: "https://images.unsplash.com/photo-1543807535-eceef0bc6599?w=800",
-    title: "Beach Getaway",
-    date: "15 Maret 2024",
-    location: "Bali",
+    src: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781307/8ede8c1a-a982-4a9d-9973-03a2b520d354_wdbg8p.jpg",
+    title: "....",
+    date: "...",
+    location: "...",
     category: "travel"
   },
+   {
+    id: 9,
+    type: "photo",
+    src: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781301/e4b8fdbb-0403-4d9b-9d08-f0ce2dbce978_vkn2cz.jpg",
+    title: "bom bom  car",
+    date: "5 april 2026",
+    location: "lipo karawaci",
+    category: "special"
+  },
+  {
+    id: 10,
+    type: "photo",
+    src: "https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781305/4f0c4e09-44b6-4d0d-aa6f-02a9489e94d5_suya9b.jpg",
+    title: "all you can eat",
+    date: "5 april 2026",
+    location: "jinman  karawaci",
+    category: "special"
+  },
+  
 ]
 
 const categories = [
@@ -143,7 +162,7 @@ export function Gallery() {
             <Heart className="w-5 h-5 text-primary fill-primary" />
           </motion.div>
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground mb-4">
-            Galeri Cinta Kita
+            Galeri Kita
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Kumpulan momen-momen manis yang kita lalui bersama

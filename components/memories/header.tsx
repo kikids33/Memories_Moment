@@ -45,7 +45,7 @@ export function Header() {
               <Heart className="w-8 h-8 text-primary fill-primary group-hover:text-accent group-hover:fill-accent transition-colors" />
             </motion.div>
             <span className="text-xl font-serif font-bold text-foreground">
-              Love<span className="text-primary">Story</span>
+              Salsa<span className="text-primary">bila</span>
             </span>
           </a>
 

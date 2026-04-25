@@ -9,21 +9,13 @@ const features = [
     title: "Album Cinta",
     description: "Kumpulkan foto dan video romantis dalam album spesial untuk kalian berdua."
   },
-  {
-    icon: Lock,
-    title: "Privasi Terjaga",
-    description: "Kenangan intim kalian aman dengan enkripsi dan password protection."
-  },
+ 
   {
     icon: Share2,
     title: "Berbagi Momen",
     description: "Kirim kenangan manis langsung ke pasangan dengan sekali sentuhan."
   },
-  {
-    icon: Sparkles,
-    title: "Memories Otomatis",
-    description: "AI kami membuat video slideshow romantis dari foto-foto terbaik kalian."
-  },
+
   {
     icon: Image,
     title: "Kualitas Penuh",

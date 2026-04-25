@@ -65,14 +65,14 @@ export function Hero() {
               className="inline-flex items-center gap-2 bg-card/80 backdrop-blur-sm px-5 py-2.5 rounded-full border border-primary/30 mb-6 shadow-lg shadow-primary/10"
             >
               <Sparkles className="w-4 h-4 text-primary" />
-              <span className="text-sm font-medium text-foreground">Cerita Cinta Kita</span>
+              <span className="text-sm font-medium text-foreground">Cerita Kita</span>
               <Heart className="w-4 h-4 text-accent fill-accent" />
             </motion.div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-6 text-balance">
               Kenangan <br />
               <span className="text-primary relative">
-                Romantis
+                Kita
                 <motion.span
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ repeat: Infinity, duration: 2 }}
@@ -84,7 +84,7 @@ export function Hero() {
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-lg mx-auto lg:mx-0 mb-8 leading-relaxed">
-              Simpan setiap momen indah bersama pasangan tercinta. Dari foto-foto manis hingga video kenangan, abadikan kisah cinta kita di satu tempat yang penuh kasih.
+              kumpulan foto foto kitaa , untuk mengenang masa masa indah kita bersama , yang akan selalu kita kenang selamanya
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -106,17 +106,17 @@ export function Hero() {
               className="flex items-center gap-8 mt-10 justify-center lg:justify-start"
             >
               <div className="text-center">
-                <p className="text-2xl font-bold text-primary">500+</p>
+                <p className="text-2xl font-bold text-primary">1+</p>
                 <p className="text-xs text-muted-foreground">Foto Bersama</p>
               </div>
               <div className="w-px h-10 bg-border" />
               <div className="text-center">
-                <p className="text-2xl font-bold text-primary">50+</p>
-                <p className="text-xs text-muted-foreground">Video Ngentot Kenangan</p>
+                <p className="text-2xl font-bold text-primary">1</p>
+                <p className="text-xs text-muted-foreground">Video Kenangan</p>
               </div>
               <div className="w-px h-10 bg-border" />
               <div className="text-center">
-                <p className="text-2xl font-bold text-primary">3+</p>
+                <p className="text-2xl font-bold text-primary">1</p>
                 <p className="text-xs text-muted-foreground">Tahun Bersama</p>
               </div>
             </motion.div>
@@ -138,7 +138,7 @@ export function Hero() {
               >
                 <div className="relative w-full h-full rounded-3xl overflow-hidden shadow-2xl border-4 border-card bg-card p-2">
                   <img
-                    src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500"
+                    src="https://res.cloudinary.com/dohwfmj5l/image/upload/v1776702232/photo_1_f30pmm.jpg"
                     alt="Romantic couple"
                     className="w-full h-full object-cover rounded-2xl"
                   />
@@ -158,7 +158,7 @@ export function Hero() {
                 className="absolute top-5 left-0 w-36 h-44 rounded-2xl overflow-hidden shadow-xl border-4 border-card z-10 rotate-[-8deg] bg-card p-1.5"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400"
+                  src="https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781298/8fe19076-01ae-4999-80f2-272482ba089f_xizdlt.jpg"
                   alt="Couple moment"
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -170,7 +170,7 @@ export function Hero() {
                 className="absolute bottom-5 right-0 w-40 h-48 rounded-2xl overflow-hidden shadow-xl border-4 border-card z-10 rotate-[6deg] bg-card p-1.5"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=400"
+                  src="https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781298/IMG_1914_gd3sji.jpg"
                   alt="Sunset together"
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -182,7 +182,7 @@ export function Hero() {
                 className="absolute top-0 right-5 w-32 h-40 bg-card rounded-xl shadow-lg p-2 rotate-[12deg] z-30 border border-border"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=300"
+                  src="https://res.cloudinary.com/dohwfmj5l/image/upload/v1776781294/IMG_1788_q0syje.jpg"
                   alt="Happy memories"
                   className="w-full h-28 object-cover rounded-lg"
                 />
