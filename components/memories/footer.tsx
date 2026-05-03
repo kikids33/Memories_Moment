@@ -52,11 +52,7 @@ export function Footer() {
             Bergabunglah dengan ribuan pasangan yang telah mempercayakan momen romantis mereka kepada kami.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Email kalian"
-              className="flex-1 px-6 py-3.5 rounded-full bg-primary-foreground/10 border-2 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50 focus:outline-none focus:border-primary/50 transition-colors"
-            />
+            
             <Button className="rounded-full px-8 bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/30 group">
               <Heart className="w-4 h-4 mr-2 group-hover:scale-125 transition-transform fill-current" />
               Daftar
@@ -119,13 +115,10 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4 flex items-center gap-2">
               <Heart className="w-4 h-4 fill-primary text-primary" />
-              Bantuan
+              ...
             </h4>
             <ul className="space-y-3 text-primary-foreground/70">
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Pusat Bantuan</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Kebijakan Privasi</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Syarat & Ketentuan</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Hubungi Kami</a></li>
+              
             </ul>
           </div>
         </div>
