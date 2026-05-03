@@ -73,11 +73,8 @@ export function Timeline() {
             <Heart className="w-5 h-5 text-primary fill-primary" />
           </motion.div>
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground mb-4">
-            Perjalanan Cinta Kita
+            .....
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Setiap momen adalah kisah, setiap tahun adalah babak baru dalam cerita cinta kita
-          </p>
         </motion.div>
 
         {/* Timeline */}
